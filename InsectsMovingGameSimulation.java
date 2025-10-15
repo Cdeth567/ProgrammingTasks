@@ -1,12 +1,14 @@
 /*
 Brief description of the problem:
 
-Implement an **Insects Moving Game Simulation** based on a grid (board).
-There are four insect types (**Ant, Butterfly, Spider, Grasshopper**) and four colors (**Red, Green, Blue, Yellow**), each with specific movement rules and food collection behavior.
-Insects move one by one in the order given in the input, choosing a direction that maximizes the total food collected, with a defined priority order for ties.
+Implement an Insects Moving Game Simulation based on a grid (board).
+There are four insect types (Ant, Butterfly, Spider, Grasshopper) and four colors (Red, Green, Blue, Yellow),
+each with specific movement rules and food collection behavior. Insects move one by one in the order given in the input,
+choosing a direction that maximizes the total food collected, with a defined priority order for ties.
 
-The program must validate all input constraints (board size, entity positions, duplicate insects, invalid types/colors, etc.) and throw custom exceptions for errors.
-For valid input, simulate all movements and output, for each insect, its **color**, **type**, **chosen direction**, and **total food eaten** before leaving the board or being killed.
+The program must validate all input constraints (board size, entity positions, duplicate insects, invalid types/colors, etc.)
+and throw custom exceptions for errors. For valid input, simulate all movements and output, for each insect,
+its color, type, chosen direction, and total food eaten before leaving the board or being killed.
 */
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
