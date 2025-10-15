@@ -1,3 +1,8 @@
+/*
+Brief description of the problem:
+Given a string **S** and an array of indices **A**, replace the characters in **S** at positions from **A** with the corresponding letters of the English alphabet (1 → 'a', 2 → 'b', …, 26 → 'z').
+If the input violates any rules (invalid lengths, duplicate or out-of-range values, invalid characters, etc.), output `"Invalid inputs"`.
+*/
 #include <stdio.h>
 #include <string.h>
 
