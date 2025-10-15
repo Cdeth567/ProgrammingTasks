@@ -1,12 +1,14 @@
 /*
 Brief description of the problem:
 
-Implement a **University Courses Management System** that manages courses, students, and professors with specific rules and constraints.
-The system supports commands to **add courses, students, and professors**, as well as to **enroll/drop students** and **assign/exempt professors** from courses.
+Implement a University Courses Management System that manages courses, students,
+and professors with specific rules and constraints. The system supports commands to
+add courses, students, and professors, as well as to enroll/drop students and assign/exempt professors from courses.
 
 Each course has a capacity of 3 students; students can take up to 3 courses, and professors can teach up to 2 courses.
 Inputs are processed line by line, validating names, IDs, and constraints.
-For each valid command, a success message is printed; on the first invalid input or rule violation, an appropriate **error message** is printed, and the program terminates.
+For each valid command, a success message is printed; on the first invalid
+input or rule violation, an appropriate error message is printed, and the program terminates.
 */
 import java.util.ArrayList;
 import java.util.Arrays;
